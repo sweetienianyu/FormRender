@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "paths": {
+      "@form-render/core": ["../core/src"]
+    }
+  },
+  "include": ["src", "../core/src"]
+}

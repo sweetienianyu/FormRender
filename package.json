@@ -1,0 +1,15 @@
+{
+  "name": "form-render",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A high-performance form generator with reactive linkage engine",
+  "scripts": {
+    "dev": "pnpm --filter playground dev",
+    "build": "pnpm --filter @form-render/core build && pnpm --filter @form-render/react build",
+    "typecheck": "pnnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
